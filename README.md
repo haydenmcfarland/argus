@@ -1,34 +1,17 @@
 # argus
 
-## Project setup
-```
-yarn install
-```
+A simple TV display application monitoring tool.
+Argus utilizes iframes to poll application diagnostic pages for casual display.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Goal
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- Create a very basic application "monitoring" display for a TV in the office that currently has no use.
+- Have Lambda that builds js bundle and dumps into S3
+- Serve bundle via S3
+- Consume bundle via TV browser
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## CORS
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
+Applications should modify their CORS policies to allow argus's origin.
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![argus](https://github.com/haydenmcfarland/assets/blob/master/images/argus.gif?raw=true)
