@@ -939,12 +939,12 @@
   resolved "https://registry.npm.taobao.org/@types/webpack-env/download/@types/webpack-env-1.15.1.tgz#c8e84705e08eed430b5e15b39c65b0944e4d1422"
   integrity sha1-yOhHBeCO7UMLXhWznGWwlE5NFCI=
 
-"@typescript-eslint/eslint-plugin@^2.18.0":
-  version "2.20.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-2.20.0.tgz#a522d0e1e4898f7c9c6a8e1ed3579b60867693fa"
-  integrity sha1-pSLQ4eSJj3ycao4e01ebYIZ2k/o=
+"@typescript-eslint/eslint-plugin@^2.21.0":
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-2.21.0.tgz#a34de84a0791cae0357c4dda805c5b4e8203b6c6"
+  integrity sha512-b5jjjDMxzcjh/Sbjuo7WyhrQmVJg0WipTHQgXh5Xwx10uYm6nPWqN1WGOsaNq4HR3Zh4wUx4IRQdDkCHwyewyw==
   dependencies:
-    "@typescript-eslint/experimental-utils" "2.20.0"
+    "@typescript-eslint/experimental-utils" "2.21.0"
     eslint-utils "^1.4.3"
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
@@ -957,6 +957,15 @@
   dependencies:
     "@types/json-schema" "^7.0.3"
     "@typescript-eslint/typescript-estree" "2.20.0"
+    eslint-scope "^5.0.0"
+
+"@typescript-eslint/experimental-utils@2.21.0":
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.21.0.tgz#71de390a3ec00b280b69138d80733406e6e86bfa"
+  integrity sha512-olKw9JP/XUkav4lq0I7S1mhGgONJF9rHNhKFn9wJlpfRVjNo3PPjSvybxEldvCXnvD+WAshSzqH5cEjPp9CsBA==
+  dependencies:
+    "@types/json-schema" "^7.0.3"
+    "@typescript-eslint/typescript-estree" "2.21.0"
     eslint-scope "^5.0.0"
 
 "@typescript-eslint/parser@^2.18.0":
@@ -973,6 +982,19 @@
   version "2.20.0"
   resolved "https://registry.npm.taobao.org/@typescript-eslint/typescript-estree/download/@typescript-eslint/typescript-estree-2.20.0.tgz#90a0f5598826b35b966ca83483b1a621b1a4d0c9"
   integrity sha1-kKD1WYgms1uWbKg0g7GmIbGk0Mk=
+  dependencies:
+    debug "^4.1.1"
+    eslint-visitor-keys "^1.1.0"
+    glob "^7.1.6"
+    is-glob "^4.0.1"
+    lodash "^4.17.15"
+    semver "^6.3.0"
+    tsutils "^3.17.1"
+
+"@typescript-eslint/typescript-estree@2.21.0":
+  version "2.21.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.21.0.tgz#7e4be29f2e338195a2e8c818949ed0ff727cc943"
+  integrity sha512-NC/nogZNb9IK2MEFQqyDBAciOT8Lp8O3KgAfvHx2Skx6WBo+KmDqlU3R9KxHONaijfTIKtojRe3SZQyMjr3wBw==
   dependencies:
     debug "^4.1.1"
     eslint-visitor-keys "^1.1.0"
@@ -8238,10 +8260,10 @@ sass-loader@^8.0.2:
     schema-utils "^2.6.1"
     semver "^6.3.0"
 
-sass@^1.25.0:
-  version "1.25.0"
-  resolved "https://registry.npm.taobao.org/sass/download/sass-1.25.0.tgz#f8bd7dfbb39d6b0305e27704a8ebe637820693f3"
-  integrity sha1-+L19+7OdawMF4ncEqOvmN4IGk/M=
+sass@^1.26.1:
+  version "1.26.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.26.1.tgz#79a36c957530c1dfffa2958968b90cb736794e91"
+  integrity sha512-DWtzW0jDu+96MYkEdM8vUigjpisvM9qSlDwNvTFcr+XC7o2+3aXSAbHNcJ+8HzD1857uW9Opbxgu39esytVUKA==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
@@ -9277,10 +9299,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npm.taobao.org/typedarray/download/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@~3.7.5:
-  version "3.7.5"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
-  integrity sha1-BpLiH2X9QQi5MwI4qsEd0uF3oa4=
+typescript@~3.8.2:
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.2.tgz#91d6868aaead7da74f493c553aeff76c0c0b1d5a"
+  integrity sha512-EgOVgL/4xfVrCMbhYKUQTdF37SQn4Iw73H5BgCrF1Abdun7Kwy/QZsE/ssAy0y4LxBbvua3PIbFsbRczWWnDdQ==
 
 uglify-js@3.4.x:
   version "3.4.10"
