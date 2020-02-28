@@ -1148,10 +1148,10 @@
     mocha "^6.2.2"
     mochapack "^1.1.13"
 
-"@vue/cli-plugin-vuex@^4.2.2", "@vue/cli-plugin-vuex@~4.2.0":
-  version "4.2.2"
-  resolved "https://registry.npm.taobao.org/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-4.2.2.tgz#f504b554e7edde945342e3c42cffad80ffa41933"
-  integrity sha1-9QS1VOft3pRTQuPELP+tgP+kGTM=
+"@vue/cli-plugin-vuex@^4.2.2", "@vue/cli-plugin-vuex@~4.2.3":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-vuex/-/cli-plugin-vuex-4.2.3.tgz#aa1d8e824dd82b8718c0c40e3906c34ccd752516"
+  integrity sha512-7M4CaoAD4W/GdiDI4+Gh2tATPFBnb/u7bCiLLDsuL9ztypv7l3p4cu43zkDpTCCuufkZFYtZwysOAY8SbGqOjg==
 
 "@vue/cli-service@~4.2.0":
   version "4.2.2"
